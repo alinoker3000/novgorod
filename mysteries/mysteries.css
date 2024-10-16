@@ -1,0 +1,160 @@
+.frame {
+  height: min-content;
+  min-height: 1080px;
+  padding: 60px;
+}
+
+.start-frame {
+  padding: 100px 150px;
+  align-items: start;
+  justify-content: start;
+  position: relative;
+}
+
+.bg-image {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+  
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 1000px;
+  gap: 50px;
+}
+
+.mysteries__header-text {
+  display: block;
+  width: 994px;
+  margin-bottom: 51px;
+}
+ 
+.image1 {
+  width: 670px;
+  position: absolute;
+  top: 274px;
+  left: 877px;
+}
+
+.image2 {
+  height: 366px;
+  position: absolute;
+  left: 501px;
+  top: 614px;
+  z-index: 10;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 105px;
+}
+
+.button {
+  width: 539px;
+  height: 120px;
+  border: 1px rgba(234, 178, 94, 1) solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pop-up__container {
+  width: 1520px;
+  padding: 60px;
+  display: flex;
+  justify-content: start;
+}
+
+.pop-up__close-icon {
+  right: 60px;
+  top: 60px;
+}
+
+.pop-up__content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  max-width: 1350px;
+}
+
+.pop-up__image-container {
+  display: flex;
+  gap: 20px;
+}
+
+.pop-up__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pop-up__table-container_wrap {
+  width: 1332px;
+  border: 1px solid rgba(218, 191, 152, 1);
+  padding: 20px;
+}
+
+.pop-up__table-container_content {
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 1292px;
+}
+
+.pop-up__table-block {
+  border: 2px solid rgba(254, 245, 231, 1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pop-up__table-block-text {
+  max-width: 490px;
+}
+
+.pop-up__table-block1 {
+  width: 534px;
+  height: 228px;
+}
+
+.pop-up__table-block2 {
+  width: 734px;
+}
+
+.pop-up__table-block3 {
+  width: 398px;
+  padding-left: 30px;
+}
+
+.pop-up__table-block4 {
+  width: 874px;
+}
+
+.pop-up__table-block-column-container{
+  display: flex;
+  justify-content: start;
+  gap: 100px;
+}
+
+.pop-up__table-block-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
