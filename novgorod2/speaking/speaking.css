@@ -1,0 +1,99 @@
+.container {
+  width: 1320px;
+  height: 830px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header-text {
+  color: white
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  
+.button {
+  width: 605.5px;
+  height: 395px;
+  border: 1px rgba(234, 178, 94, 1) solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 40px;
+  gap: 20px;
+}
+  
+.button-image1 {
+  width: 241px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.button-image2 {
+  width: 242px;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.slider-icon-right {
+  height: 39px;
+  position: absolute;
+  right: 459px;
+}
+
+.slider-icon-right_wide {
+  height: 39px;
+  position: absolute;
+  right: 70px;
+}
+  
+.slider-icon-left {
+  height: 39px;
+  position: absolute;
+  left: 459px;
+  transform: rotate(180deg);
+}
+
+.slider-icon-left_wide {
+  height: 39px;
+  position: absolute;
+  left: 70px;
+  transform: rotate(180deg);
+}
+
+.slider-image {
+  height: 100%;
+}
+
+.slider-container {
+  position: absolute;
+  left: 25px;
+  z-index: -10;
+  max-width: 429px;
+}
+
+.slider-capture {
+  margin-bottom: 53px;
+}
+
+.slider-column-container {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  gap: 20px;
+}
+
+.slider-column p, .slider-container p{
+  margin-bottom: 10px;
+}
+
+.slider-column p:last-child, .slider-container p:last-child{
+  margin-bottom: 0;
+}
